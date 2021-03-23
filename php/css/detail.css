@@ -1,0 +1,119 @@
+/*--- 以下 ---*/
+.close {
+	width: 30%;
+	margin: 10px 46%;
+}
+.close a,.close p {
+	font-size: 16px;
+}
+.check_submit {
+	font-size: 16px;
+	cursor: pointer;
+}
+.check_menber {
+	width: 60%;
+	margin: 2% auto;
+}
+.edit_submit {
+	margin: 0 48%;
+	font-size: 16px;
+	cursor: pointer;
+}
+.editform table {
+	margin: 2% auto;
+}
+.editform table tr th {
+	border-top: 1px solid grey;
+	border-bottom: 1px solid grey;
+	border-left: 1px solid grey;
+	line-height: 45px;
+	width: 20%;
+	text-align: center;
+}
+.editform td{
+	border-top: 1px solid grey;
+	border-bottom: 1px solid grey;
+	border-right: 1px solid grey;
+	line-height: 45px;
+	width: 50%;
+}
+.editform p {
+	font-size: 16px;
+	margin-left: 25%;
+}
+.menber_detail{
+	overflow-y: hidden;
+	white-space: nowrap;
+	width: 70%;
+	margin: 0 auto 20px auto;
+}
+.menber_detail table tr th {
+	border-top: 2px solid grey;
+	border-bottom: 2px solid grey;
+	line-height: 35px;
+	padding: 0 15px;
+}
+.menber_detail td{
+	border-top: 2px solid grey;
+	border-bottom: 2px solid grey;
+	padding: 0 15px;
+	line-height: 45px;
+	text-align: left;
+}
+#res_detail{
+	overflow-y: hidden;
+	white-space: nowrap;
+	width: 60%;
+	margin: 0 auto 5px auto;
+}
+#res_detail table tr th {
+	border-top: 2px solid grey;
+	border-bottom: 2px solid grey;
+	line-height: 35px;
+	padding: 0 15px;
+}
+#res_detail td{
+	border-top: 2px solid grey;
+	border-bottom: 2px solid grey;
+	padding: 0 15px;
+	line-height: 45px;
+	text-align: center;
+}
+.total_res {
+	width: 20%;
+	margin: 3% 0% 1% 27%;
+}
+.total_res p {
+	font-size: 18px;
+}
+.fixed{
+  position: sticky;
+	left: 0;
+	background-color: white;
+}
+.fixed2{
+  position: sticky;
+	right: 0;
+	background-color: white;
+}
+#history_res table {
+	width: 45%;
+	margin: 0 auto 5px auto;
+}
+#history_res table tr th {
+	border-top: 2px solid grey;
+	border-bottom: 2px solid grey;
+	line-height: 40px;
+	width: calc(45%/4);
+}
+#history_res td{
+	border-top: 2px solid grey;
+	border-bottom: 2px solid grey;
+	width: calc(45%/4);
+	line-height: 50px;
+}
+#error {
+	color: red;
+	font-size: 16px;
+	margin: 2% 0 0 25%;
+}

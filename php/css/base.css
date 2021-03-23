@@ -1,0 +1,129 @@
+@charset "UTF-8";
+table {
+	font-size: 18px;
+}
+a {
+  text-decoration: none;
+}
+textarea {
+  font-size: 100%;
+  vertical-align: middle;
+}
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+html {
+	width: 100%;
+  height: 100%;
+}
+body {
+  font-family: 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+  width: 100%;
+}
+body, h1, h2, h3, h4, h5, h6, p, address,
+ul, ol, li, dl, dt, dd, img, form, table, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 100%;
+	text-align: left;
+	list-style-type: none;
+	border-collapse: collapse;
+}
+/*--- 以下 ---*/
+.wrap {
+	width: 100%;
+}
+.title h2 {
+	font-size: 20px;
+	font-weight: bold;
+}
+.title {
+	width: 25%;
+	border-bottom: 2px solid grey;
+	border-left: 10px solid grey;
+	padding-left: 10px;
+	letter-spacing: 4px;
+	margin: 3% 0 0 20%;
+}
+#header,#footer {
+	background-color: lightsteelblue;
+	width: 100%;
+	height: 150px;
+}
+#header {
+	border-bottom: 15px solid grey;
+}
+#footer {
+	border-top: 15px solid grey;
+}
+#header_contents,#footer_contents {
+	width: 70%;
+	margin: 0 auto;
+}
+#header_logo {
+	width: 30%;
+	padding: 20px 30px 0 30px;
+	float: left;
+}
+#header_logo h1 {
+	font-size: 50px;
+	font-weight: bold;
+	font-family: fantasy;
+	line-height: 70px;
+}
+#header_logo h1 a,#header_list1 ul li a,#header_list2 ul li a{
+	color: black;
+}
+#header_list1 ul,#header_list2 ul{
+	line-height: 25px;
+}
+#header_list1 ul li {
+	float: left;
+	width: calc(100%/6);
+	text-align: center;
+	margin-top: 3%;
+}
+#header_list2 ul li {
+	float: left;
+	width: calc(100%/12);
+	text-align: center;
+	margin-top: 3%;
+}
+#footer_contents p {
+	text-align: center;
+	padding-top: 20px;
+}
+.paging {
+	width: 20%;
+	margin: 0 0 80px 27%;
+}
+.error1,.error2 {
+	text-align: center;
+	color: red;
+	font-size: 16px;
+}
+#add_manager {
+	font-size: 16px;
+}
+#add_manager2 {
+	margin: 0 47%;
+}
+.error1 p,.error2 p,#add_manager p {
+	text-align: center;
+}
+.date_sec {
+	width: 100%;
+}
+.date_sec2 {
+	width: 25%;
+}
+.date_sec3 {
+	width: 50%;
+}
