@@ -1,0 +1,76 @@
+/*--- 以下 ---*/
+#twit {
+	margin: 5% auto;
+}
+#twit_submit {
+	margin-left: 47%;
+	font-size: 17px;
+	cursor: pointer;
+}
+#twit table {
+	margin: 30px auto;
+}
+#twit table tr th {
+	border-top: 1px solid grey;
+	border-bottom: 1px solid grey;
+	border-left: 1px solid grey;
+	width: 20%;
+	text-align: center;
+}
+#twit td{
+	border-top: 1px solid grey;
+	border-bottom: 1px solid grey;
+	border-right: 1px solid grey;
+	line-height: 50px;
+	width: 50%;
+}
+#textbox {
+	margin: 5px 0;
+}
+#rooms_photo {
+	display: flex;
+	flex-wrap: nowrap;
+	margin: 6% 0;
+	padding: 0 5%;
+}
+#photo_prev,#photo_next {
+	width: 3%;
+	margin: auto 0;
+}
+#photo_prev img,#photo_next img,#photo ul li {
+	width: 100%;
+}
+#photo {
+	width: 100%;
+	overflow: hidden;
+}
+#photo ul {
+  width: 201%;
+	display: flex;
+}
+#photo ul li img {
+  width: 100%;
+	height: 100%;
+}
+#comment {
+	border-top: 2px solid #000;
+	width: 50%;
+	margin: 2% auto;
+}
+#comment_penname {
+	margin: 25px 0 5px 25px;
+}
+#comment_contemts {
+	width: 70%;
+	margin: 20px auto 30px auto;
+}
+#del {
+	text-align: center;
+}
+.heart {
+	width: 70%;
+	margin: 0 auto;
+}
+.heart img {
+	width: 7%;
+}

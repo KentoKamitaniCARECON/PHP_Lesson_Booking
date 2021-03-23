@@ -1,0 +1,90 @@
+
+/*--- 以下 ---*/
+.edit_submit {
+	margin: 0 48%;
+	font-size: 16px;
+	cursor: pointer;
+}
+.editform table {
+	margin: 2% auto;
+	width: 40%;
+}
+.editform table tr th {
+	border-top: 1px solid grey;
+	border-bottom: 1px solid grey;
+	line-height: 45px;
+	width: 40%;
+	text-align: center;
+}
+.editform td{
+	border-top: 1px solid grey;
+	border-bottom: 1px solid grey;
+	line-height: 45px;
+	width: 60%;
+	text-align: center;
+}
+#textbox {
+	width: 100%;
+	margin: 3px 3px;
+}
+.editform p {
+	font-size: 16px;
+	margin-left: 25%;
+}
+.reservation table {
+	width: 60%;
+	margin: 0 auto 5px auto;
+}
+.reservation table tr th {
+	border-top: 2px solid grey;
+	border-bottom: 2px solid grey;
+	line-height: 40px;
+	width: calc(45%/4);
+	text-align: center;
+}
+.reservation td{
+	border-top: 2px solid grey;
+	border-bottom: 2px solid grey;
+	width: calc(45%/4);
+	line-height: 50px;
+	text-align: center;
+}
+.error {
+	color: red;
+	font-size: 16px;
+	margin: 2% 0 0 35%;
+}
+.check_submit {
+	font-size: 16px;
+	margin: 2% auto;
+	cursor: pointer;
+}
+.check_date,.mr {
+	width: 30%;
+	margin: 2% auto;
+	font-size: 16px;
+}
+.mr h2 {
+	text-align: center;
+}
+#submit {
+	width: 10%;
+	margin: 0 45%;
+}
+#res_conf table {
+	margin: 2% auto;
+}
+#res_conf table tr th {
+	border-top: 1px solid grey;
+	border-bottom: 1px solid grey;
+	line-height: 45px;
+	width: 50%;
+	text-align: center;
+}
+#res_conf table tr td{
+	border-top: 1px solid grey;
+	border-bottom: 1px solid grey;
+	line-height: 45px;
+	width: 70%;
+	text-align: left;
+}
