@@ -47,10 +47,9 @@ MAMP/MySQL/PHP
 データベース名：rsv_app
 お使いのphpMyAdminに上のデータベースを作り、入っているDB.sqlをインポートしていただければお使いいただけるようになると思います。
 
-table
-・comments:アバウトアスページの投稿用テーブル
-・informations:トップページお知らせ欄用テーブル
-・like_comments:アバウトアスページの投稿のGOODボタン用テーブル
-・menbers:会員用テーブル
-・reservations:予約用テーブル
+・comments:アバウトアスページの投稿用テーブル<br>
+・informations:トップページお知らせ欄用テーブル<br>
+・like_comments:アバウトアスページの投稿のGOODボタン用テーブル<br>
+・menbers:会員用テーブル<br>
+・reservations:予約用テーブル<br>
 ・rooms:全部屋の情報用テーブル
